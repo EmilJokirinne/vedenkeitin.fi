@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="fi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Vedenkeittimen sähkönkulutus – laskuri | Vedenkeitin.fi</title>
+<meta name="description" content="Paljonko vedenkeitin kuluttaa sähköä? Laske keittokerran energiankulutus ja hinta veden määrän, lämpötilan ja sähkön hinnan perusteella.">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="https://vedenkeitin.fi/vedenkeittimen-sahkonkulutus/">
+<meta property="og:type" content="website"><meta property="og:locale" content="fi_FI"><meta property="og:site_name" content="Vedenkeitin.fi">
+<meta property="og:title" content="Vedenkeittimen sähkönkulutus – laskuri | Vedenkeitin.fi"><meta property="og:description" content="Paljonko vedenkeitin kuluttaa sähköä? Laske keittokerran energiankulutus ja hinta veden määrän, lämpötilan ja sähkön hinnan perusteella."><meta property="og:url" content="https://vedenkeitin.fi/vedenkeittimen-sahkonkulutus/">
+<meta name="theme-color" content="#faf9f6">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap">
+<link rel="stylesheet" href="/styles.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Etusivu", "item": "https://vedenkeitin.fi/"}, {"@type": "ListItem", "position": 2, "name": "Osto-opas", "item": "https://vedenkeitin.fi/osto-opas/"}, {"@type": "ListItem", "position": 3, "name": "Sähkönkulutus", "item": "https://vedenkeitin.fi/vedenkeittimen-sahkonkulutus/"}]}</script>
+<script src="/products.js" defer></script><script src="/retailers.js" defer></script><script src="/app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#sisalto">Siirry sisältöön</a>
+<header class="site-header"><div class="wrap">
+<a class="logo" href="/" aria-label="Vedenkeitin.fi – etusivu"><svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="9" fill="#2d5b6b"/><path d="M10 25 L11.5 11 Q11.7 9.5 13.2 9.5 L18.8 9.5 Q20.3 9.5 20.5 11 L22 25 Z" fill="#fff"/><path d="M20.4 12 L23.5 12 Q25 12 25 13.5 L25 20 Q25 21.5 23.5 21.5 L21.4 21.5" fill="none" stroke="#fff" stroke-width="1.8" stroke-linejoin="round"/><path d="M11.4 13 L7.5 11 L10.9 17.5Z" fill="#fff"/><rect x="12.5" y="8" width="7" height="2" rx="1" fill="#b9dbe4"/></svg><span>Vedenkeitin.fi</span></a>
+<button class="menu-toggle" aria-expanded="false" aria-controls="nav"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>Valikko</button>
+<nav id="nav" class="nav" aria-label="Päävalikko"><a href="/">Etusivu</a><a href="/vedenkeittimet/">Vedenkeittimet</a><a href="/hintavertailu/">Hintavertailu</a><a href="/osto-opas/">Osto-opas</a><a href="/vedenkeitin-lampotilansaadolla/">Lämpötilansäätö</a><a href="/vertailut/">Vertailut</a><a href="/blogi/">Blogi</a><a class="btn btn-primary" href="/hintavertailu/">Vertaile</a></nav>
+</div></header>
+<main id="sisalto">
+<section class="page-head"><div class="wrap"><nav class="crumbs" aria-label="Murupolku"><ol><li><a href="/">Etusivu</a></li><li><a href="/osto-opas/">Osto-opas</a></li><li><span aria-current="page">Sähkönkulutus</span></li></ol></nav><h1>Vedenkeitin kuluttaa sähköä – kuinka paljon?</h1><p class="lead">Syötä veden määrä, lämpötilat ja sähkön hinta. Laskuri arvioi yhden keittokerran energiankulutuksen ja hinnan.</p><div class="updated">Päivitetty viimeksi: <span data-date="site">30.9.2026</span></div></div></section><div class="wrap" style="padding:40px 20px 20px"><div class="card calc">
+<form id="calc" novalidate>
+<div class="row2"><div><label for="c-l">Veden määrä <span class="hint">(litraa)</span></label><input type="number" id="c-l" value="1" min="0.1" max="3" step="0.1" inputmode="decimal"></div>
+<div><label for="c-p">Sähkön hinta <span class="hint">(€/kWh)</span></label><input type="number" id="c-p" value="0.15" min="0" step="0.01" inputmode="decimal"></div></div>
+<div class="row2"><div><label for="c-t0">Veden aloituslämpötila <span class="hint">(°C)</span></label><input type="number" id="c-t0" value="10" min="0" max="99" inputmode="numeric"></div>
+<div><label for="c-t1">Tavoitelämpötila <span class="hint">(°C)</span></label><input type="number" id="c-t1" value="100" min="1" max="100" inputmode="numeric"></div></div>
+<div class="row2"><div><label for="c-e">Hyötysuhde <span class="hint">(%)</span></label><input type="number" id="c-e" value="85" min="30" max="100" inputmode="numeric"></div>
+<div><label for="c-n">Keittokertoja päivässä <span class="hint">(valinnainen)</span></label><input type="number" id="c-n" value="3" min="0" max="50" inputmode="numeric"></div></div>
+<p class="note mt0"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="10" cy="10" r="8"/><path d="M10 9v5M10 6.2v.1" stroke-linecap="round"/></svg><span>Kylmä vesijohtovesi on Suomessa tyypillisesti noin 5–15 °C. Sähkön hintaan kannattaa laskea mukaan myös siirtomaksu.</span></p>
+</form>
+<div class="out" aria-live="polite">
+<div><div class="k">Arvioitu energiankulutus</div><div class="v" id="r-kwh">–</div><div class="s" id="r-wh"></div></div>
+<div><div class="k">Arvioitu kustannus</div><div class="v" id="r-eur">–</div><div class="s" id="r-year"></div></div>
+<div class="disc">Laskelma on suuntaa-antava. Todellinen kulutus riippuu vedenkeittimen hyötysuhteesta, ympäristöstä ja muista tekijöistä.</div>
+</div></div></div><div class="wrap article"><div class="prose"><section id="laskenta"><h2>Näin laskuri laskee</h2><p>Litran vettä lämmittämiseen yhdellä asteella tarvitaan noin 4,19 kilojoulea. Laskuri kertoo tämän lämpötilaerolla ja vesimäärällä ja muuttaa tuloksen kilowattitunneiksi. Koska osa energiasta lämmittää kannua ja karkaa ympäristöön, tulos jaetaan hyötysuhteella. Tavallisen vedenkeittimen hyötysuhteeksi arvioidaan usein noin 80–90 prosenttia.</p>
+<p>Esimerkki: litra 10-asteista vettä kiehuvaksi vaatii teoriassa noin 0,105 kWh ja 85 prosentin hyötysuhteella noin 0,12 kWh. 15 sentin kilowattituntihinnalla se maksaa alle kaksi senttiä.</p></section><section id="saasto"><h2>Näin säästät sähköä</h2><ul><li>Keitä vain tarvitsemasi määrä – ylimääräisen veden kuumentaminen on keittimen suurin hukka.</li><li>Poista kalkki säännöllisesti. Paksu kalkkikerros hidastaa lämmönsiirtoa.</li><li>Jos juot teetä tai kahvia alle 100 asteen vedestä, lämpötilansäätö voi vähentää kulutusta hieman.</li><li>Vedenkeitin on yleensä energiatehokkaampi tapa kuumentaa pieni vesimäärä kuin kattila liedellä.</li></ul></section></div><aside class="toc" aria-label="Sisällys"><strong>Tällä sivulla</strong><ol><li><a href="#laskenta">Näin laskuri laskee</a></li><li><a href="#saasto">Näin säästät sähköä</a></li></ol></aside></div>
+</main>
+<footer class="site-footer"><div class="wrap">
+<div class="fgrid">
+<div><a class="logo" href="/"><svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="9" fill="#2d5b6b"/><path d="M10 25 L11.5 11 Q11.7 9.5 13.2 9.5 L18.8 9.5 Q20.3 9.5 20.5 11 L22 25 Z" fill="#fff"/><path d="M20.4 12 L23.5 12 Q25 12 25 13.5 L25 20 Q25 21.5 23.5 21.5 L21.4 21.5" fill="none" stroke="#fff" stroke-width="1.8" stroke-linejoin="round"/><path d="M11.4 13 L7.5 11 L10.9 17.5Z" fill="#fff"/><rect x="12.5" y="8" width="7" height="2" rx="1" fill="#b9dbe4"/></svg><span>Vedenkeitin.fi</span></a>
+<p>Suomalainen vedenkeittimien opas ja vertailusivusto.</p>
+<div class="trust"><strong>Tietoa Vedenkeitin.fi-sivustosta</strong>Käytämme tuotteiden ja hintojen yhteydessä mahdollisuuksien mukaan ajantasaisia tietoja. Hinnat ja saatavuus voivat muuttua jälleenmyyjillä. <a href="/tietoa-sivustosta/">Lue lisää</a></div></div>
+<nav aria-label="Vertailut"><h2>Vertailu</h2><ul>
+<li><a href="/vedenkeittimet/">Vedenkeittimet</a></li><li><a href="/hintavertailu/">Hintavertailu</a></li><li><a href="/lasinen-vai-teraksinen-vedenkeitin/">Lasinen vai teräksinen</a></li><li><a href="/mista-vedenkeitin/">Mistä vedenkeitin</a></li></ul></nav>
+<nav aria-label="Oppaat"><h2>Oppaat</h2><ul>
+<li><a href="/osto-opas/">Osto-opas</a></li><li><a href="/vedenkeitin-lampotilansaadolla/">Vedenkeitin lämpötilansäädöllä</a></li><li><a href="/vedenkeittimen-sahkonkulutus/">Sähkönkulutuslaskuri</a></li><li><a href="/ukk/">Usein kysytyt kysymykset</a></li></ul></nav>
+<nav aria-label="Sivusto"><h2>Sivusto</h2><ul>
+<li><a href="/tietoa-sivustosta/">Tietoa sivustosta</a></li><li><a href="/yhteystiedot/">Yhteystiedot</a></li><li><a href="/tietosuojaseloste/">Tietosuojaseloste</a></li><li><a href="/evasteet/">Evästeet</a></li></ul></nav>
+</div>
+<div class="fbottom"><span>© 2026 Vedenkeitin.fi · Päivitetty viimeksi: <span data-date="site">30.9.2026</span></span><span>Vedenkeitin.fi voi saada komission joidenkin jälleenmyyjille johtavien linkkien kautta. Tämä ei vaikuta tuotteen hintaan.</span></div>
+</div></footer>
+</body>
+</html>
